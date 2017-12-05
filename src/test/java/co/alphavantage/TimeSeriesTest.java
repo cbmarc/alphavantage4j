@@ -1,10 +1,10 @@
 package co.alphavantage;
 
-import co.alphavantage.input.timeseries.Interval;
-import co.alphavantage.input.timeseries.OutputSize;
-import co.alphavantage.output.AlphaVantageException;
-import co.alphavantage.output.timeseries.*;
-import co.alphavantage.output.timeseries.data.StockData;
+import co.alphavantage.api.timeseries.*;
+import co.alphavantage.api.timeseries.data.StockData;
+import co.alphavantage.api.timeseries.params.Interval;
+import co.alphavantage.api.timeseries.params.OutputSize;
+import co.alphavantage.exception.AlphaVantageException;
 import org.joda.time.DateTime;
 import org.junit.Test;
 

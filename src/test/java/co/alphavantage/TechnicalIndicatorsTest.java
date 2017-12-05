@@ -1,11 +1,12 @@
 package co.alphavantage;
 
-import co.alphavantage.input.technicalindicator.Interval;
-import co.alphavantage.input.technicalindicator.SeriesType;
-import co.alphavantage.input.technicalindicator.TimePeriod;
-import co.alphavantage.output.AlphaVantageException;
-import co.alphavantage.output.technicalindicators.SMA;
-import co.alphavantage.output.technicalindicators.data.SMAData;
+import co.alphavantage.api.technicalindicator.SMA;
+import co.alphavantage.api.technicalindicator.TechnicalIndicators;
+import co.alphavantage.api.technicalindicator.data.SMAData;
+import co.alphavantage.api.technicalindicator.params.Interval;
+import co.alphavantage.api.technicalindicator.params.SeriesType;
+import co.alphavantage.api.technicalindicator.params.TimePeriod;
+import co.alphavantage.exception.AlphaVantageException;
 import org.joda.time.DateTime;
 import org.junit.Test;
 
